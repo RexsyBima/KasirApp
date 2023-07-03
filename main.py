@@ -47,11 +47,8 @@ def quantities(): #get the quantities of the product
 
 def get_product_data(name, price, quantities):
     #products = []
-    name_val = name
-    price_val = price
-    quantity_val = quantities
     # Create a dictionary for this product and add it to the list
-    product = {"Name": name_val, "Price": price_val, "Quantities": quantity_val}
+    product = {"Name": name, "Price": price, "Quantities": quantities}
     #products.append(product)
     return product
     
