@@ -53,7 +53,6 @@ def get_product_data(name, price, quantities):
     return product
     
     
-
 def calculation(harga, jumlah): #calculate the total price of a product (product*quantities) 
     totalproduct = harga*jumlah
     return totalproduct
