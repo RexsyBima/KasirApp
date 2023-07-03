@@ -1,5 +1,5 @@
 import csv
-# made by
+# made by rexsy
 # concept
 #1. get the name of the product
 #2. get the price of the product
