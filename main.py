@@ -8,11 +8,14 @@ import csv
 #5. Elif not done, loop number 1
 #6. opsional konsep = save the data to a csv, dan total harga ke txt
 
+def check_space(string): #check string supaya bisa input produk pakai spasi (ex = bakso sapi, mie ayam)
+    return ' ' in string
+
 def product_name(): #get the name of the product
     while True:
         try:
             name = input("What is the name of the product : ").lower()
-            if name.isalpha():
+            if name.isalpha() or check_space(name):
                 return name
             elif name.isalpha() == False:
                 print("Please enter the name of the product correctly")
